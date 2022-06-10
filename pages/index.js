@@ -17,3 +17,7 @@ export default function Home() {
     </div>
   );
 }
+
+/**
+ * new tutorial to look at https://www.youtube.com/watch?v=7yK3z0ohdRg
+ */
