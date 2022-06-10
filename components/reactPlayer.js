@@ -1,5 +1,5 @@
 import React from "react";
-import ReactPlayer from "react-player/lazy";
+import ReactPlayer from "react-player/lazy"; // better to use the lazy loader
 // import video from "../public/vdo/video.mp4";
 // // Lazy load the YouTube player
 // import ReactPlayer from "react-player/lazy";
