@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import noPackageVideo from "../components/noPackageVideo";
-import VideoApp from "../components/videotest";
-
+// import noPackageVideo from "../components/noPackageVideo";
+// import VideoApp from "../components/videotest";
+import ReactPlayerComponent from "../components/reactPlayer";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,11 +13,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <noPackageVideo /> */}
-      <VideoApp />
+      {/* <VideoApp /> */}
+      <ReactPlayerComponent />
     </div>
   );
 }
 
 /**
  * new tutorial to look at https://www.youtube.com/watch?v=7yK3z0ohdRg
+
+  https://www.youtube.com/watch?v=Rq5SEhs9lws
  */
